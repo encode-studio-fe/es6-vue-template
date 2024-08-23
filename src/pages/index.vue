@@ -28,7 +28,7 @@ const { t } = useI18n();
     <TheInput
       v-model="name"
       :placeholder="t('intro.whats-your-name')"
-      autocomplete="false"
+      autocomplete="off"
       @keydown.enter="go"
     />
     <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
